@@ -1,0 +1,25 @@
+﻿生成启动时间为 2014/10/6 11:51:24。
+     1>项目“E:\JIE course\speech recognition  systems\Project3\Multi-templates\Multi-templates\Multi-templates.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Multi-templates.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "Multi-templates.cpp"
+         Multi-templates.cpp
+     1>e:\jie course\speech recognition  systems\project3\multi-templates\multi-templates\multi-templates.cpp(95): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project3\multi-templates\multi-templates\multi-templates.cpp(97): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project3\multi-templates\multi-templates\multi-templates.cpp(112): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\jie course\speech recognition  systems\project3\multi-templates\multi-templates\multi-templates.cpp(222): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\jie course\speech recognition  systems\project3\multi-templates\multi-templates\multi-templates.cpp(226): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project3\multi-templates\multi-templates\multi-templates.cpp(237): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project3\multi-templates\multi-templates\multi-templates.cpp(239): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project3\multi-templates\multi-templates\multi-templates.cpp(265): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project3\multi-templates\multi-templates\multi-templates.cpp(304): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project3\multi-templates\multi-templates\multi-templates.cpp(307): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project3\multi-templates\multi-templates\multi-templates.cpp(309): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         D:\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\JIE course\speech recognition  systems\Project3\Multi-templates\Debug\Multi-templates.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\JIE course\speech recognition  systems\Project3\Multi-templates\Debug\Multi-templates.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\JIE course\speech recognition  systems\Project3\Multi-templates\Debug\Multi-templates.lib" /MACHINE:X86 "Debug\Multi-templates.obj"
+         Debug\stdafx.obj
+         Multi-templates.vcxproj -> E:\JIE course\speech recognition  systems\Project3\Multi-templates\Debug\Multi-templates.exe
+     1>已完成生成项目“E:\JIE course\speech recognition  systems\Project3\Multi-templates\Multi-templates\Multi-templates.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.58

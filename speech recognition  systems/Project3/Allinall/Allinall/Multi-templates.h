@@ -1,0 +1,1 @@
+void Multi_templates();

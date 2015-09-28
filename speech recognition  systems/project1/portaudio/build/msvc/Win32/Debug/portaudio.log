@@ -1,0 +1,72 @@
+﻿生成启动时间为 2014/8/30 18:19:48。
+     1>项目“C:\Users\Administrator\Desktop\portaudio\build\msvc\portaudio.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Win32\Debug\portaudio.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Win32\Debug\portaudio.dll.embed.manifest.res" Win32\Debug\portaudio_manifest.rc 
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Administrator\Desktop\portaudio\build\msvc\Win32\Debug\portaudio.dll) 与 Linker 的 OutputFile 属性值(C:\Users\Administrator\Desktop\portaudio\build\msvc\Win32\Debug\portaudio_x86.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(portaudio) 与 Linker 的 OutputFile 属性值(portaudio_x86)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         D:\VC_2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Win32\Debug\portaudio_x86.dll" /INCREMENTAL /NOLOGO ksguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\portaudio.def" /MANIFEST /ManifestFile:"Win32\Debug\portaudio.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Win32\Debug\portaudio_x86.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Win32\Debug\portaudio_x86.lib" /MACHINE:X86 /DLL Win32\Debug\portaudio.dll.embed.manifest.res
+         Win32\Debug\pa_allocation.obj
+         Win32\Debug\pa_converters.obj
+         Win32\Debug\pa_cpuload.obj
+         Win32\Debug\pa_debugprint.obj
+         Win32\Debug\pa_dither.obj
+         Win32\Debug\pa_front.obj
+         Win32\Debug\pa_hostapi_skeleton.obj
+         Win32\Debug\pa_process.obj
+         Win32\Debug\pa_ringbuffer.obj
+         Win32\Debug\pa_stream.obj
+         Win32\Debug\pa_trace.obj
+         Win32\Debug\pa_win_ds.obj
+         Win32\Debug\pa_win_ds_dynlink.obj
+         Win32\Debug\pa_win_wmme.obj
+         Win32\Debug\pa_win_wasapi.obj
+         Win32\Debug\pa_win_wdmks.obj
+         Win32\Debug\pa_win_coinitialize.obj
+         Win32\Debug\pa_win_hostapis.obj
+         Win32\Debug\pa_win_util.obj
+         Win32\Debug\pa_win_waveformat.obj
+         Win32\Debug\pa_win_wdmks_utils.obj
+         Win32\Debug\pa_x86_plain_converters.obj
+            正在创建库 Win32\Debug\portaudio_x86.lib 和对象 Win32\Debug\portaudio_x86.exp
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Win32\Debug\portaudio.dll.embed.manifest" /manifest Win32\Debug\portaudio.dll.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Win32\Debug\portaudio.dll.embed.manifest.res" Win32\Debug\portaudio_manifest.rc 
+       LinkEmbedManifest:
+         D:\VC_2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Win32\Debug\portaudio_x86.dll" /INCREMENTAL /NOLOGO ksguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\portaudio.def" /MANIFEST /ManifestFile:"Win32\Debug\portaudio.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Win32\Debug\portaudio_x86.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Win32\Debug\portaudio_x86.lib" /MACHINE:X86 /DLL Win32\Debug\portaudio.dll.embed.manifest.res
+         Win32\Debug\pa_allocation.obj
+         Win32\Debug\pa_converters.obj
+         Win32\Debug\pa_cpuload.obj
+         Win32\Debug\pa_debugprint.obj
+         Win32\Debug\pa_dither.obj
+         Win32\Debug\pa_front.obj
+         Win32\Debug\pa_hostapi_skeleton.obj
+         Win32\Debug\pa_process.obj
+         Win32\Debug\pa_ringbuffer.obj
+         Win32\Debug\pa_stream.obj
+         Win32\Debug\pa_trace.obj
+         Win32\Debug\pa_win_ds.obj
+         Win32\Debug\pa_win_ds_dynlink.obj
+         Win32\Debug\pa_win_wmme.obj
+         Win32\Debug\pa_win_wasapi.obj
+         Win32\Debug\pa_win_wdmks.obj
+         Win32\Debug\pa_win_coinitialize.obj
+         Win32\Debug\pa_win_hostapis.obj
+         Win32\Debug\pa_win_util.obj
+         Win32\Debug\pa_win_waveformat.obj
+         Win32\Debug\pa_win_wdmks_utils.obj
+         Win32\Debug\pa_x86_plain_converters.obj
+            正在创建库 Win32\Debug\portaudio_x86.lib 和对象 Win32\Debug\portaudio_x86.exp
+         portaudio.vcxproj -> C:\Users\Administrator\Desktop\portaudio\build\msvc\Win32\Debug\portaudio.dll
+       FinalizeBuildStatus:
+         正在删除文件“Win32\Debug\portaudio.unsuccessfulbuild”。
+         正在对“Win32\Debug\portaudio.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Administrator\Desktop\portaudio\build\msvc\portaudio.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.07

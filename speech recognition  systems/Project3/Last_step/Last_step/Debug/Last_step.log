@@ -1,0 +1,26 @@
+﻿生成启动时间为 2014/10/3 21:40:42。
+     1>项目“E:\JIE course\speech recognition  systems\Project3\Last_step\Last_step\Last_step.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Last_step.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Last_step.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Last_step.cpp
+         Last_step.cpp
+     1>e:\jie course\speech recognition  systems\project3\last_step\last_step\last_step.cpp(47): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\jie course\speech recognition  systems\project3\last_step\last_step\last_step.cpp(95): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\jie course\speech recognition  systems\project3\last_step\last_step\last_step.cpp(98): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project3\last_step\last_step\last_step.cpp(101): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project3\last_step\last_step\last_step.cpp(109): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project3\last_step\last_step\last_step.cpp(111): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project3\last_step\last_step\last_step.cpp(129): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project3\last_step\last_step\last_step.cpp(190): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project3\last_step\last_step\last_step.cpp(194): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project3\last_step\last_step\last_step.cpp(208): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         D:\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\JIE course\speech recognition  systems\Project3\Last_step\Debug\Last_step.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\JIE course\speech recognition  systems\Project3\Last_step\Debug\Last_step.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\JIE course\speech recognition  systems\Project3\Last_step\Debug\Last_step.lib" /MACHINE:X86 Debug\Last_step.obj
+         Debug\stdafx.obj
+         Last_step.vcxproj -> E:\JIE course\speech recognition  systems\Project3\Last_step\Debug\Last_step.exe
+     1>已完成生成项目“E:\JIE course\speech recognition  systems\Project3\Last_step\Last_step\Last_step.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.08

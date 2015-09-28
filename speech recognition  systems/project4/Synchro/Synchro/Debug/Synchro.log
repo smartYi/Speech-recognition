@@ -1,0 +1,45 @@
+﻿生成启动时间为 2014/10/30 22:24:45。
+     1>项目“E:\JIE course\speech recognition  systems\project4\Synchro\Synchro\Synchro.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Synchro.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Synchro.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt get_distance.cpp read_template.cpp Synchro.cpp Synchronous.cpp
+         Synchronous.cpp
+         Synchro.cpp
+     1>e:\jie course\speech recognition  systems\project4\synchro\synchro\dct.h(79): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\jie course\speech recognition  systems\project4\synchro\synchro\dct.h(242): warning C4244: “=”: 从“double”转换到“SAMPLE”，可能丢失数据
+     1>e:\jie course\speech recognition  systems\project4\synchro\synchro\dct.h(274): warning C4244: “参数”: 从“long double”转换到“SAMPLE”，可能丢失数据
+     1>e:\jie course\speech recognition  systems\project4\synchro\synchro\dct.h(298): warning C4244: “初始化”: 从“double”转换到“time_t”，可能丢失数据
+     1>e:\jie course\speech recognition  systems\project4\synchro\synchro\dct.h(303): warning C4244: “=”: 从“double”转换到“time_t”，可能丢失数据
+     1>e:\jie course\speech recognition  systems\project4\synchro\synchro\dct.h(319): warning C4305: “初始化”: 从“double”到“float”截断
+     1>e:\jie course\speech recognition  systems\project4\synchro\synchro\dct.h(321): warning C4244: “初始化”: 从“double”转换到“SAMPLE”，可能丢失数据
+     1>e:\jie course\speech recognition  systems\project4\synchro\synchro\dct.h(510): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project4\synchro\synchro\dct.h(528): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project4\synchro\synchro\dct.h(547): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project4\synchro\synchro\dct.h(560): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project4\synchro\synchro\dct.h(749): warning C4244: “=”: 从“double”转换到“SAMPLE”，可能丢失数据
+     1>e:\jie course\speech recognition  systems\project4\synchro\synchro\dct.h(777): warning C4244: “参数”: 从“double”转换到“const short”，可能丢失数据
+     1>e:\jie course\speech recognition  systems\project4\synchro\synchro\dct.h(863): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\jie course\speech recognition  systems\project4\synchro\synchro\dct.h(865): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\jie course\speech recognition  systems\project4\synchro\synchro\dct.h(403): warning C4101: “filenumBytes”: 未引用的局部变量
+     1>e:\jie course\speech recognition  systems\project4\synchro\synchro\dct.h(405): warning C4101: “val”: 未引用的局部变量
+     1>e:\jie course\speech recognition  systems\project4\synchro\synchro\dct.h(399): warning C4101: “filedatatofalFrames”: 未引用的局部变量
+     1>e:\jie course\speech recognition  systems\project4\synchro\synchro\dct.h(401): warning C4101: “filenumSamples”: 未引用的局部变量
+         read_template.cpp
+         get_distance.cpp
+         正在生成代码...
+       Link:
+         D:\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\JIE course\speech recognition  systems\project4\Synchro\Debug\Synchro.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\JIE course\speech recognition  systems\project4\Synchro\Debug\Synchro.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\JIE course\speech recognition  systems\project4\Synchro\Debug\Synchro.lib" /MACHINE:X86 Debug\get_distance.obj
+         Debug\read_template.obj
+         Debug\stdafx.obj
+         Debug\Synchro.obj
+         Debug\Synchronous.obj
+         portaudio_x86.lib
+     1>Synchro.obj : error LNK2019: 无法解析的外部符号 "void __cdecl WriteWave(char *,short *,int,int)" (?WriteWave@@YAXPADPAFHH@Z)，该符号在函数 "void __cdecl DCT(void)" (?DCT@@YAXXZ) 中被引用
+     1>Synchro.obj : error LNK2019: 无法解析的外部符号 "short * __cdecl ReadWavFile(char *,int *,int *)" (?ReadWavFile@@YAPAFPADPAH1@Z)，该符号在函数 "void __cdecl DCT(void)" (?DCT@@YAXXZ) 中被引用
+     1>E:\JIE course\speech recognition  systems\project4\Synchro\Debug\Synchro.exe : fatal error LNK1120: 2 个无法解析的外部命令
+     1>已完成生成项目“E:\JIE course\speech recognition  systems\project4\Synchro\Synchro\Synchro.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.84

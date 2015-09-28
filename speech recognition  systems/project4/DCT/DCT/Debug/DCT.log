@@ -1,0 +1,57 @@
+﻿生成启动时间为 2014/10/26 0:22:47。
+     1>项目“E:\JIE course\speech recognition  systems\project4\DCT\DCT\DCT.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\DCT.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\DCT.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\project1\project1\my_final_project1_tcode\include\readwave.cpp recorded_compare.cpp input_file.cpp multiple_template_path.cpp read_template.cpp DCT.cpp DTW.cpp get_distance.cpp main.cpp
+         main.cpp
+         get_distance.cpp
+         DTW.cpp
+         DCT.cpp
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\dct.cpp(73): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\dct.cpp(236): warning C4244: “=”: 从“double”转换到“SAMPLE”，可能丢失数据
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\dct.cpp(268): warning C4244: “参数”: 从“long double”转换到“SAMPLE”，可能丢失数据
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\dct.cpp(292): warning C4244: “初始化”: 从“double”转换到“time_t”，可能丢失数据
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\dct.cpp(297): warning C4244: “=”: 从“double”转换到“time_t”，可能丢失数据
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\dct.cpp(313): warning C4305: “初始化”: 从“double”到“float”截断
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\dct.cpp(315): warning C4244: “初始化”: 从“double”转换到“SAMPLE”，可能丢失数据
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\dct.cpp(504): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\dct.cpp(522): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\dct.cpp(541): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\dct.cpp(554): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\dct.cpp(743): warning C4244: “=”: 从“double”转换到“SAMPLE”，可能丢失数据
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\dct.cpp(771): warning C4244: “参数”: 从“double”转换到“const short”，可能丢失数据
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\dct.cpp(857): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\dct.cpp(859): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\dct.cpp(397): warning C4101: “filenumBytes”: 未引用的局部变量
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\dct.cpp(399): warning C4101: “val”: 未引用的局部变量
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\dct.cpp(393): warning C4101: “filedatatofalFrames”: 未引用的局部变量
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\dct.cpp(395): warning C4101: “filenumSamples”: 未引用的局部变量
+         read_template.cpp
+         multiple_template_path.cpp
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\multiple_template_path.cpp(43): warning C4129: “z”: 不可识别的字符转义序列
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\multiple_template_path.cpp(57): warning C4129: “o”: 不可识别的字符转义序列
+         input_file.cpp
+         recorded_compare.cpp
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\recorded_compare.cpp(43): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\jie course\speech recognition  systems\project4\dct\dct\recorded_compare.cpp(148): warning C4018: “<”: 有符号/无符号不匹配
+         readwave.cpp
+         正在生成代码...
+       Link:
+         D:\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\JIE course\speech recognition  systems\project4\DCT\Debug\DCT.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\JIE course\speech recognition  systems\project4\DCT\Debug\DCT.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\JIE course\speech recognition  systems\project4\DCT\Debug\DCT.lib" /MACHINE:X86 Debug\readwave.obj
+         Debug\recorded_compare.obj
+         Debug\input_file.obj
+         Debug\multiple_template_path.obj
+         Debug\read_template.obj
+         Debug\DCT.obj
+         Debug\DTW.obj
+         Debug\get_distance.obj
+         Debug\main.obj
+         Debug\stdafx.obj
+         ..\lib\portaudio_x86.lib
+         DCT.vcxproj -> E:\JIE course\speech recognition  systems\project4\DCT\Debug\DCT.exe
+     1>已完成生成项目“E:\JIE course\speech recognition  systems\project4\DCT\DCT\DCT.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.60

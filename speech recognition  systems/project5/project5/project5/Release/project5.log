@@ -1,0 +1,25 @@
+﻿生成启动时间为 2014/11/18 16:21:06。
+     1>项目“E:\JIE course\speech recognition  systems\project5\project5\project5\project5.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(60): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 main.cpp(57) : 忽略“i”的定义
+                 main.cpp(45) : 使用“i”的定义
+     1>main.cpp(66): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 main.cpp(61) : 忽略“i”的定义
+                 main.cpp(45) : 使用“i”的定义
+     1>main.cpp(86): warning C4018: “<”: 有符号/无符号不匹配
+     1>main.cpp(158): warning C4018: “<”: 有符号/无符号不匹配
+     1>main.cpp(351): warning C4018: “<”: 有符号/无符号不匹配
+     1>main.cpp(417): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         D:\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\JIE course\speech recognition  systems\project5\project5\Release\project5.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\JIE course\speech recognition  systems\project5\project5\Release\project5.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\JIE course\speech recognition  systems\project5\project5\Release\project5.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         正在生成代码
+         已完成代码的生成
+         project5.vcxproj -> E:\JIE course\speech recognition  systems\project5\project5\Release\project5.exe
+     1>已完成生成项目“E:\JIE course\speech recognition  systems\project5\project5\project5\project5.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.10

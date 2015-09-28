@@ -1,0 +1,15 @@
+﻿生成启动时间为 2014/9/15 星期一 20:03:30。
+     1>项目“E:\JIE course\speech recognition  systems\project1\project1\my_final_project1_code-副本\portaudio_project1\portaudio_project1.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“E:\JIE course\speech recognition  systems\project1\project1\my_final_project1_code-副本\x64\Debug\”。
+       InitializeBuildStatus:
+         正在创建“x64\Debug\portaudio_project1.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt ..\include\readwave.cpp test.cpp
+         TRACKER : 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\x64\Microsoft.Cpp.x64.Targets(146,5): error MSB6006: “CL.exe”已退出，代码为 2。
+     1>已完成生成项目“E:\JIE course\speech recognition  systems\project1\project1\my_final_project1_code-副本\portaudio_project1\portaudio_project1.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.43

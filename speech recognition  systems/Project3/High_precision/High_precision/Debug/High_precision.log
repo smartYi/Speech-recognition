@@ -1,0 +1,14 @@
+﻿生成启动时间为 2014/10/5 2:00:07。
+     1>项目“E:\JIE course\speech recognition  systems\Project3\High_precision\High_precision\High_precision.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\High_precision.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt High_precision.cpp
+         High_precision.cpp
+       Link:
+         D:\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\JIE course\speech recognition  systems\Project3\High_precision\Debug\High_precision.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\JIE course\speech recognition  systems\Project3\High_precision\Debug\High_precision.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\JIE course\speech recognition  systems\Project3\High_precision\Debug\High_precision.lib" /MACHINE:X86 Debug\High_precision.obj
+         Debug\stdafx.obj
+         High_precision.vcxproj -> E:\JIE course\speech recognition  systems\Project3\High_precision\Debug\High_precision.exe
+     1>已完成生成项目“E:\JIE course\speech recognition  systems\Project3\High_precision\High_precision\High_precision.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.62
